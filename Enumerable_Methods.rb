@@ -50,7 +50,7 @@ module Enumerable
 			end
 		end
 		for i in self
-			if yield(i) == true
+			if yield(i)
 				return true
 			end
 		end
@@ -66,7 +66,7 @@ module Enumerable
 			end
 		end
 		for i in self
-			if yield(i) == true
+			if yield(i)
 				return false
 			end 
 		end
